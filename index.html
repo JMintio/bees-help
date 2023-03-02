@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body class="body">
+    <div class="body_background"></div>
+    <!-- *************** Welcome Page *************** -->
+    <div class="start_page">
+      <h1 class="start_h1 animate__animated animate__fadeInLeft">
+        Olá! Seja bem-vindo(a)
+      </h1>
+      <p class="start_p1 animate__animated animate__fadeInLeft">
+        Este site irá te ajudar com suas dúvidas.
+      </p>
+      <img
+        class="start_icon"
+        src="/icons/bootstrap-icons-1.10.3/caret-down-fill.svg"
+        alt=""
+      />
+      <div
+        class="start_btn animate__animated animate__fadeInLeft"
+        onclick="startBtn_click()"
+      >
+        começar
+      </div>
+      <div class="animate__animated animate__fadeInLeft footer">
+        joão mintio - ambev
+      </div>
+    </div>
+    <!-- *************** Home Page *************** -->
+    <div class="home_page">
+      <div class="headerDef flex_align">Selecione sua dúvida</div>
+      <ul class="itensDef flex_align">
+        <li class="menu_itensDef flex_align" onclick="resgate_btn()">
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/gift-fill.svg"
+            alt=""
+          />
+          Resgate
+        </li>
+        <li class="menu_itensDef flex_align" onclick="desafios_btn()">
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/award-fill.svg"
+            alt=""
+          />Desafios
+        </li>
+        <li class="menu_itensDef flex_align" onclick="promo_btn()">
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/currency-dollar.svg"
+            alt=""
+          />Promoções
+        </li>
+        <li class="menu_itensDef flex_align" onclick="solicit_btn()">
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/info-circle-fill.svg"
+            alt=""
+          />Solicitações
+        </li>
+        <li class="menu_itensDef flex_align" onclick="tele_btn()">
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/telephone-fill.svg"
+            alt=""
+          />Telefones
+        </li>
+        <li class="menu_itensDef flex_align" onclick="back_btn()">
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/arrow-left-circle-fill.svg"
+            alt=""
+          />Voltar
+        </li>
+      </ul>
+      <div class="footer">joão mintio - ambev</div>
+    </div>
+    <!-- *************** Resgate *************** -->
+    <!-- *************** Telefones *************** -->
+    <div class="tel_page flex_align">
+      <div class="headerDef flex_align">Telefones úteis</div>
+      <div class="itensDef flex_align">
+        <div
+          class="menu_itensDef tele_number1 flex_align"
+          style="
+            background-color: rgba(255, 255, 255, 0.164);
+            color: rgb(226, 226, 226);
+            cursor: auto;
+            text-align: center;
+          "
+        >
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/box-arrow-up-left.svg"
+            alt=""
+          />
+          Aperte para ser direcionado<br />
+          ao Whatsapp.
+        </div>
+        <a
+          href="https://wa.me/5527997330887"
+          class="menu_itensDef tele_number1 flex_align"
+        >
+          Representante - (27)99733-0887
+        </a>
+        <a
+          href="https://wa.me/5527996877136"
+          class="menu_itensDef tele_number1 flex_align"
+        >
+          CME 1 - (27)99687-7136
+        </a>
+        <a
+          href="https://wa.me/5527999467800"
+          class="menu_itensDef tele_number1 flex_align"
+        >
+          CME 2 - (27)99946-7800
+        </a>
+        <a
+          href="https://wa.me/5527997330887"
+          class="menu_itensDef tele_number1 flex_align"
+        >
+          0800 - 0800 887 1111
+        </a>
+
+        <div class="menu_itensDef flex_align" onclick="back_btn()">
+          <img
+            class="menu_iconDef"
+            src="/icons/bootstrap-icons-1.10.3/arrow-left-circle-fill.svg"
+            alt=""
+          />Voltar
+        </div>
+      </div>
+      <div class="footer">joão mintio - ambev</div>
+    </div>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>
